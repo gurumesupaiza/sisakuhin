@@ -21,6 +21,8 @@ body {
 .header {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
+  padding: 0 40px;
+  background: color-mix(in srgb, var(--color-bg) 85%, transparent);
 }
 
 .header__inner {
@@ -83,3 +85,37 @@ body {
     padding: 50px 0;
   }
 }
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link {
+  color: var(--color-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.nav__link:hover {
+    color: var(--color-accent);
+}
+
+.nav__list {
+  display: flex;
+  gap: calc(var(--space) * 1.5);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
