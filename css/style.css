@@ -21,6 +21,8 @@ body {
 .header {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
+  padding: 0 40px;
+  background: color-mix(in srgb, var(--color-bg) 85%, transparent);
 }
 
 .header__inner {
